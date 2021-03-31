@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+  }
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @font-face {
+    font-family: neon;
+    src: url(hellodenverdisplayregular_v1.6.ttf);
+  }
+  .neon-wrapper {
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e97272,
+      0 0 4vw 0.4vw #e50b0b, inset 0 0 1.5vw 0.4vw #e50b0b,
+      inset 0 0 0.4vw 0.2vw #e97272, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1.5rem;
+  }
+  .neon-text {
+    font-family: "Orbitron", sans-serif;
+    font-size: 10rem;
+    color: #ffd8d8;
+    padding: 0 3.5rem 0 3.5rem;
+    text-shadow: 0.1vw 0vw 0.25vw #ffd8d8, 0.2vw 0vw 0.25vw #ffd8d8,
+      0.4vw 0vw 0.25vw #ffd8d8, 0.1vw 0vw 0vw #f25757, 0.2vw 0vw 0vw #f25757,
+      0.4vw 0vw 0vw #f25757, 0.1vw 0vw 0.1vw #f25757, 0.2vw 0vw 0.1vw #f25757,
+      0.4vw 0vw 0.1vw #f25757, 0.1vw 0vw 2vw #f25757, 0.2vw 0vw 2vw #f25757,
+      0.4vw 0vw 2vw #f25757, 0.1vw 0vw 1vw #e50b0b, 0.2vw 0vw 1vw #e50b0b,
+      0.4vw 0vw 5vw #e50b0b, 0.1vw 0vw 5vw #e50b0b, 0.2vw 0vw 20vw #e50b0b,
+      0.4vw 0vw 10vw #e50b0b, 0.1vw 0vw 10vw #e50b0b, 0.2vw 0vw 30vw #e50b0b,
+      0.4vw 0vw 10vw #e50b0b;
+  }
+  table {
+    margin-top: 100px;
+  }
+  .eve {
+    border-collapse: separate;
+    border-spacing: 250px 10px;
+  }
+  td {
+    padding: 15px;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+  }
+  
+  td:hover {
+    background: #fff;
+    backdrop-filter: blur(10px);
+    color: black;
+  }
